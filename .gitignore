@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+*.o
+*.a
+*.so
+.depend
+logs/
+validation/
+artifacts/
+*.log
+*.tmp

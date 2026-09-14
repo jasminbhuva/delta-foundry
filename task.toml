@@ -1,0 +1,39 @@
+schema_version = "1.3"
+
+# The separate verifier receives only the agent's source tree. Build products are
+# excluded from the transfer; the verifier reads only allowlisted source files.
+artifacts = [{ source = "/app/git", exclude = ["*.o", "*.a", "*.so", ".depend", ".git"] }]
+
+[task]
+name = "afterquery/delta-foundry"
+description = "Make pinned Git's pack encoder produce smaller self-contained packs while every object reconstructs exactly and packing, indexing and read costs stay within 1.40x of stock Git."
+authors = [{ name = "Jasmin" }]
+keywords = ["git", "pack-objects", "delta-compression", "zlib", "codecs", "performance", "c"]
+
+[metadata.scoring]
+paradigm = "performance"
+gate = { key = "correctness_passed" }
+objectives = [{ key = "geo_mean_size_ratio", direction = "higher", baseline = 1.0, tolerance = 0.02 }]
+verifier_runtime_sec = 3600
+build_runtime_sec = 1800
+self_check = "/app/ci/check.sh"
+
+[verifier]
+timeout_sec = 3600
+environment_mode = "separate"
+
+# Sealed verifier container: built from tests/Dockerfile, no network.
+[verifier.environment]
+network_mode = "no-network"
+build_timeout_sec = 2700
+cpus = 2
+memory_mb = 4096
+storage_mb = 16384
+
+# Agent container: internet access stays available while the agent works.
+[environment]
+network_mode = "public"
+build_timeout_sec = 2700
+cpus = 2
+memory_mb = 4096
+storage_mb = 16384

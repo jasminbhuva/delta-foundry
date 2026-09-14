@@ -1,0 +1,4184 @@
+{
+ "cases": [
+  {
+   "family": "small:excerpt_slice",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s000",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "lua",
+    "kind": "excerpt_slice",
+    "start": 565
+   },
+   "profile": [
+    "--window=50",
+    "--depth=50",
+    "--threads=2",
+    "--compression=9"
+   ],
+   "seed": "public-small-excerpt_slice-0"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s001",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "excerpt": "jq",
+    "kind": "excerpt_slice",
+    "start": 308
+   },
+   "profile": [
+    "--window=1",
+    "--depth=10",
+    "--threads=1",
+    "--compression=1",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-excerpt_slice-1"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s002",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "excerpt": "lua",
+    "kind": "excerpt_slice",
+    "start": 652
+   },
+   "profile": [
+    "--window=1",
+    "--depth=2",
+    "--threads=2",
+    "--compression=6",
+    "--delta-base-offset",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-excerpt_slice-2"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s003",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "jq",
+    "kind": "excerpt_slice",
+    "start": 285
+   },
+   "profile": [
+    "--window=50",
+    "--depth=50",
+    "--threads=2",
+    "--compression=6",
+    "--delta-base-offset",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-excerpt_slice-3"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s004",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "excerpt": "lua",
+    "kind": "excerpt_slice",
+    "start": 665
+   },
+   "profile": [
+    "--window=2",
+    "--depth=10",
+    "--threads=2",
+    "--compression=9",
+    "--delta-base-offset",
+    "--no-reuse-delta"
+   ],
+   "seed": "public-small-excerpt_slice-4"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s005",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "excerpt": "jq",
+    "kind": "excerpt_slice",
+    "start": 87
+   },
+   "profile": [
+    "--window=10",
+    "--depth=10",
+    "--threads=2",
+    "--compression=9",
+    "--delta-base-offset",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-excerpt_slice-5"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s006",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "excerpt": "lua",
+    "kind": "excerpt_slice",
+    "start": 637
+   },
+   "profile": [
+    "--window=2",
+    "--depth=1",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-excerpt_slice-6"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s007",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "jq",
+    "kind": "excerpt_slice",
+    "start": 138
+   },
+   "profile": [
+    "--window=1",
+    "--depth=0",
+    "--threads=2",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-excerpt_slice-7"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s008",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "excerpt": "lua",
+    "kind": "excerpt_slice",
+    "start": 55
+   },
+   "profile": [
+    "--window=1",
+    "--depth=10",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-excerpt_slice-8"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s009",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "excerpt": "jq",
+    "kind": "excerpt_slice",
+    "start": 370
+   },
+   "profile": [
+    "--window=1",
+    "--depth=0",
+    "--threads=1",
+    "--compression=1"
+   ],
+   "seed": "public-small-excerpt_slice-9"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s010",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "lua",
+    "kind": "excerpt_slice",
+    "start": 14
+   },
+   "profile": [
+    "--window=2",
+    "--depth=0",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-excerpt_slice-10"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s011",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "jq",
+    "kind": "excerpt_slice",
+    "start": 1
+   },
+   "profile": [
+    "--window=10",
+    "--depth=1",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-excerpt_slice-11"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s012",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "lua",
+    "kind": "excerpt_slice",
+    "start": 404
+   },
+   "profile": [
+    "--window=50",
+    "--depth=1",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset",
+    "--no-reuse-object",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-excerpt_slice-12"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s013",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "jq",
+    "kind": "excerpt_slice",
+    "start": 3
+   },
+   "profile": [
+    "--window=2",
+    "--depth=2",
+    "--threads=2",
+    "--compression=6",
+    "--delta-base-offset",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-excerpt_slice-13"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s014",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "lua",
+    "kind": "excerpt_slice",
+    "start": 398
+   },
+   "profile": [
+    "--window=10",
+    "--depth=5",
+    "--threads=2",
+    "--compression=6"
+   ],
+   "seed": "public-small-excerpt_slice-14"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s015",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "jq",
+    "kind": "excerpt_slice",
+    "start": 349
+   },
+   "profile": [
+    "--window=2",
+    "--depth=2",
+    "--threads=1",
+    "--compression=6",
+    "--delta-base-offset",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-excerpt_slice-15"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s016",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "excerpt": "lua",
+    "kind": "excerpt_slice",
+    "start": 355
+   },
+   "profile": [
+    "--window=50",
+    "--depth=50",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-excerpt_slice-16"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s017",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "jq",
+    "kind": "excerpt_slice",
+    "start": 348
+   },
+   "profile": [
+    "--window=10",
+    "--depth=0",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-excerpt_slice-17"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s018",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "lua",
+    "kind": "excerpt_slice",
+    "start": 216
+   },
+   "profile": [
+    "--window=2",
+    "--depth=10",
+    "--threads=2",
+    "--compression=1"
+   ],
+   "seed": "public-small-excerpt_slice-18"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s019",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "jq",
+    "kind": "excerpt_slice",
+    "start": 44
+   },
+   "profile": [
+    "--window=10",
+    "--depth=50",
+    "--threads=2",
+    "--compression=9",
+    "--delta-base-offset",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-excerpt_slice-19"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s020",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "excerpt": "lua",
+    "kind": "excerpt_slice",
+    "start": 347
+   },
+   "profile": [
+    "--window=1",
+    "--depth=2",
+    "--threads=1",
+    "--compression=9"
+   ],
+   "seed": "public-small-excerpt_slice-20"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s021",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "excerpt": "jq",
+    "kind": "excerpt_slice",
+    "start": 269
+   },
+   "profile": [
+    "--window=1",
+    "--depth=5",
+    "--threads=2",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-excerpt_slice-21"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s022",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "lua",
+    "kind": "excerpt_slice",
+    "start": 196
+   },
+   "profile": [
+    "--window=1",
+    "--depth=3",
+    "--threads=1",
+    "--compression=6",
+    "--delta-base-offset",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-excerpt_slice-22"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s023",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "jq",
+    "kind": "excerpt_slice",
+    "start": 267
+   },
+   "profile": [
+    "--window=10",
+    "--depth=50",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-excerpt_slice-23"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s024",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "excerpt": "lua",
+    "kind": "excerpt_slice",
+    "start": 581
+   },
+   "profile": [
+    "--window=50",
+    "--depth=3",
+    "--threads=1",
+    "--compression=1",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-excerpt_slice-24"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s025",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "jq",
+    "kind": "excerpt_slice",
+    "start": 352
+   },
+   "profile": [
+    "--window=2",
+    "--depth=3",
+    "--threads=2",
+    "--compression=9",
+    "--delta-base-offset",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-excerpt_slice-25"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s026",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "lua",
+    "kind": "excerpt_slice",
+    "start": 64
+   },
+   "profile": [
+    "--window=1",
+    "--depth=2",
+    "--threads=1",
+    "--compression=1",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-excerpt_slice-26"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s027",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "jq",
+    "kind": "excerpt_slice",
+    "start": 182
+   },
+   "profile": [
+    "--window=10",
+    "--depth=3",
+    "--threads=2",
+    "--compression=6",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-excerpt_slice-27"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s028",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "lua",
+    "kind": "excerpt_slice",
+    "start": 276
+   },
+   "profile": [
+    "--window=10",
+    "--depth=50",
+    "--threads=1",
+    "--compression=6",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-excerpt_slice-28"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s029",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "jq",
+    "kind": "excerpt_slice",
+    "start": 361
+   },
+   "profile": [
+    "--window=2",
+    "--depth=0",
+    "--threads=1",
+    "--compression=1"
+   ],
+   "seed": "public-small-excerpt_slice-29"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s030",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "excerpt": "lua",
+    "kind": "excerpt_slice",
+    "start": 603
+   },
+   "profile": [
+    "--window=50",
+    "--depth=3",
+    "--threads=1",
+    "--compression=1",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-excerpt_slice-30"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s031",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "excerpt": "jq",
+    "kind": "excerpt_slice",
+    "start": 215
+   },
+   "profile": [
+    "--window=10",
+    "--depth=0",
+    "--threads=2",
+    "--compression=9",
+    "--delta-base-offset",
+    "--no-reuse-delta"
+   ],
+   "seed": "public-small-excerpt_slice-31"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s032",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "lua",
+    "kind": "excerpt_slice",
+    "start": 209
+   },
+   "profile": [
+    "--window=50",
+    "--depth=10",
+    "--threads=2",
+    "--compression=9",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-excerpt_slice-32"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s033",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "jq",
+    "kind": "excerpt_slice",
+    "start": 208
+   },
+   "profile": [
+    "--window=50",
+    "--depth=5",
+    "--threads=1",
+    "--compression=6",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-excerpt_slice-33"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s034",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "lua",
+    "kind": "excerpt_slice",
+    "start": 267
+   },
+   "profile": [
+    "--window=50",
+    "--depth=0",
+    "--threads=2",
+    "--compression=1",
+    "--delta-base-offset",
+    "--no-reuse-delta"
+   ],
+   "seed": "public-small-excerpt_slice-34"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s035",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "excerpt": "jq",
+    "kind": "excerpt_slice",
+    "start": 291
+   },
+   "profile": [
+    "--window=10",
+    "--depth=5",
+    "--threads=1",
+    "--compression=9"
+   ],
+   "seed": "public-small-excerpt_slice-35"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s036",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "lua",
+    "kind": "excerpt_slice",
+    "start": 448
+   },
+   "profile": [
+    "--window=2",
+    "--depth=10",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-excerpt_slice-36"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s037",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "excerpt": "jq",
+    "kind": "excerpt_slice",
+    "start": 358
+   },
+   "profile": [
+    "--window=1",
+    "--depth=5",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset",
+    "--no-reuse-delta"
+   ],
+   "seed": "public-small-excerpt_slice-37"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s038",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "excerpt": "lua",
+    "kind": "excerpt_slice",
+    "start": 592
+   },
+   "profile": [
+    "--window=2",
+    "--depth=50",
+    "--threads=2",
+    "--compression=6"
+   ],
+   "seed": "public-small-excerpt_slice-38"
+  },
+  {
+   "family": "small:excerpt_slice",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s039",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "excerpt": "jq",
+    "kind": "excerpt_slice",
+    "start": 309
+   },
+   "profile": [
+    "--window=50",
+    "--depth=50",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset",
+    "--no-reuse-delta",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-excerpt_slice-39"
+  },
+  {
+   "family": "small:diverge_small",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s040",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "excerpt": "lua",
+    "kind": "diverge_small",
+    "start": 254
+   },
+   "profile": [
+    "--window=50",
+    "--depth=5",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-diverge_small-0"
+  },
+  {
+   "family": "small:diverge_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s041",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "jq",
+    "kind": "diverge_small",
+    "start": 11
+   },
+   "profile": [
+    "--window=1",
+    "--depth=3",
+    "--threads=2",
+    "--compression=9",
+    "--delta-base-offset",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-diverge_small-1"
+  },
+  {
+   "family": "small:diverge_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s042",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "excerpt": "lua",
+    "kind": "diverge_small",
+    "start": 370
+   },
+   "profile": [
+    "--window=1",
+    "--depth=1",
+    "--threads=1",
+    "--compression=6",
+    "--delta-base-offset",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-diverge_small-2"
+  },
+  {
+   "family": "small:diverge_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s043",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "excerpt": "jq",
+    "kind": "diverge_small",
+    "start": 139
+   },
+   "profile": [
+    "--window=2",
+    "--depth=2",
+    "--threads=2",
+    "--compression=9",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-diverge_small-3"
+  },
+  {
+   "family": "small:diverge_small",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s044",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "excerpt": "lua",
+    "kind": "diverge_small",
+    "start": 608
+   },
+   "profile": [
+    "--window=2",
+    "--depth=1",
+    "--threads=2",
+    "--compression=9",
+    "--no-reuse-object"
+   ],
+   "seed": "public-small-diverge_small-4"
+  },
+  {
+   "family": "small:diverge_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s045",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "jq",
+    "kind": "diverge_small",
+    "start": 248
+   },
+   "profile": [
+    "--window=10",
+    "--depth=10",
+    "--threads=1",
+    "--compression=1"
+   ],
+   "seed": "public-small-diverge_small-5"
+  },
+  {
+   "family": "small:diverge_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s046",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "lua",
+    "kind": "diverge_small",
+    "start": 509
+   },
+   "profile": [
+    "--window=1",
+    "--depth=0",
+    "--threads=1",
+    "--compression=1",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-diverge_small-6"
+  },
+  {
+   "family": "small:diverge_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s047",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "jq",
+    "kind": "diverge_small",
+    "start": 321
+   },
+   "profile": [
+    "--window=2",
+    "--depth=1",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-diverge_small-7"
+  },
+  {
+   "family": "small:diverge_small",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s048",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "excerpt": "lua",
+    "kind": "diverge_small",
+    "start": 97
+   },
+   "profile": [
+    "--window=2",
+    "--depth=10",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset",
+    "--no-reuse-delta"
+   ],
+   "seed": "public-small-diverge_small-8"
+  },
+  {
+   "family": "small:diverge_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s049",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "excerpt": "jq",
+    "kind": "diverge_small",
+    "start": 347
+   },
+   "profile": [
+    "--window=1",
+    "--depth=50",
+    "--threads=1",
+    "--compression=1",
+    "--delta-base-offset",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-diverge_small-9"
+  },
+  {
+   "family": "small:diverge_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s050",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "excerpt": "lua",
+    "kind": "diverge_small",
+    "start": 513
+   },
+   "profile": [
+    "--window=10",
+    "--depth=1",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-diverge_small-10"
+  },
+  {
+   "family": "small:diverge_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s051",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "excerpt": "jq",
+    "kind": "diverge_small",
+    "start": 127
+   },
+   "profile": [
+    "--window=10",
+    "--depth=0",
+    "--threads=2",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-diverge_small-11"
+  },
+  {
+   "family": "small:diverge_small",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s052",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "lua",
+    "kind": "diverge_small",
+    "start": 367
+   },
+   "profile": [
+    "--window=10",
+    "--depth=1",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-diverge_small-12"
+  },
+  {
+   "family": "small:diverge_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s053",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "excerpt": "jq",
+    "kind": "diverge_small",
+    "start": 159
+   },
+   "profile": [
+    "--window=50",
+    "--depth=10",
+    "--threads=1",
+    "--compression=6",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-diverge_small-13"
+  },
+  {
+   "family": "small:diverge_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s054",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "lua",
+    "kind": "diverge_small",
+    "start": 674
+   },
+   "profile": [
+    "--window=2",
+    "--depth=3",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset",
+    "--no-reuse-delta"
+   ],
+   "seed": "public-small-diverge_small-14"
+  },
+  {
+   "family": "small:diverge_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s055",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "jq",
+    "kind": "diverge_small",
+    "start": 309
+   },
+   "profile": [
+    "--window=10",
+    "--depth=10",
+    "--threads=2",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-diverge_small-15"
+  },
+  {
+   "family": "small:renames",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s056",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "excerpt": "lua",
+    "kind": "renames",
+    "start": 626
+   },
+   "profile": [
+    "--window=2",
+    "--depth=50",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-renames-0"
+  },
+  {
+   "family": "small:renames",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s057",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "jq",
+    "kind": "renames",
+    "start": 280
+   },
+   "profile": [
+    "--window=10",
+    "--depth=5",
+    "--threads=2",
+    "--compression=9",
+    "--delta-base-offset",
+    "--no-reuse-delta",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-renames-1"
+  },
+  {
+   "family": "small:renames",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s058",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "lua",
+    "kind": "renames",
+    "start": 308
+   },
+   "profile": [
+    "--window=50",
+    "--depth=5",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-renames-2"
+  },
+  {
+   "family": "small:renames",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s059",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "jq",
+    "kind": "renames",
+    "start": 173
+   },
+   "profile": [
+    "--window=50",
+    "--depth=5",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset",
+    "--no-reuse-delta"
+   ],
+   "seed": "public-small-renames-3"
+  },
+  {
+   "family": "small:renames",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s060",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "lua",
+    "kind": "renames",
+    "start": 350
+   },
+   "profile": [
+    "--window=10",
+    "--depth=2",
+    "--threads=2",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-renames-4"
+  },
+  {
+   "family": "small:renames",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s061",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "jq",
+    "kind": "renames",
+    "start": 319
+   },
+   "profile": [
+    "--window=2",
+    "--depth=50",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-renames-5"
+  },
+  {
+   "family": "small:renames",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s062",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "lua",
+    "kind": "renames",
+    "start": 130
+   },
+   "profile": [
+    "--window=10",
+    "--depth=0",
+    "--threads=2",
+    "--compression=1",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-renames-6"
+  },
+  {
+   "family": "small:renames",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s063",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "excerpt": "jq",
+    "kind": "renames",
+    "start": 192
+   },
+   "profile": [
+    "--window=2",
+    "--depth=1",
+    "--threads=1",
+    "--compression=6",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-renames-7"
+  },
+  {
+   "family": "small:renames",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s064",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "lua",
+    "kind": "renames",
+    "start": 181
+   },
+   "profile": [
+    "--window=1",
+    "--depth=10",
+    "--threads=1",
+    "--compression=1"
+   ],
+   "seed": "public-small-renames-8"
+  },
+  {
+   "family": "small:renames",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s065",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "excerpt": "jq",
+    "kind": "renames",
+    "start": 191
+   },
+   "profile": [
+    "--window=2",
+    "--depth=1",
+    "--threads=1",
+    "--compression=1",
+    "--delta-base-offset",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-renames-9"
+  },
+  {
+   "family": "small:renames",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s066",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "lua",
+    "kind": "renames",
+    "start": 31
+   },
+   "profile": [
+    "--window=50",
+    "--depth=50",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-renames-10"
+  },
+  {
+   "family": "small:renames",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s067",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "excerpt": "jq",
+    "kind": "renames",
+    "start": 153
+   },
+   "profile": [
+    "--window=2",
+    "--depth=50",
+    "--threads=2",
+    "--compression=6",
+    "--no-reuse-object"
+   ],
+   "seed": "public-small-renames-11"
+  },
+  {
+   "family": "small:gen_text_small",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s068",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "gen_text_small"
+   },
+   "profile": [
+    "--window=2",
+    "--depth=5",
+    "--threads=1",
+    "--compression=1",
+    "--delta-base-offset",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-gen_text_small-0"
+  },
+  {
+   "family": "small:gen_text_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s069",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "gen_text_small"
+   },
+   "profile": [
+    "--window=1",
+    "--depth=5",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-gen_text_small-1"
+  },
+  {
+   "family": "small:gen_text_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s070",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "gen_text_small"
+   },
+   "profile": [
+    "--window=50",
+    "--depth=2",
+    "--threads=2",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-gen_text_small-2"
+  },
+  {
+   "family": "small:gen_text_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s071",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "gen_text_small"
+   },
+   "profile": [
+    "--window=2",
+    "--depth=2",
+    "--threads=1",
+    "--compression=1",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-gen_text_small-3"
+  },
+  {
+   "family": "small:gen_text_small",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s072",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "gen_text_small"
+   },
+   "profile": [
+    "--window=10",
+    "--depth=1",
+    "--threads=1",
+    "--compression=1",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-gen_text_small-4"
+  },
+  {
+   "family": "small:gen_text_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s073",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "gen_text_small"
+   },
+   "profile": [
+    "--window=10",
+    "--depth=3",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-gen_text_small-5"
+  },
+  {
+   "family": "small:gen_text_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s074",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "gen_text_small"
+   },
+   "profile": [
+    "--window=2",
+    "--depth=50",
+    "--threads=1",
+    "--compression=6",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-gen_text_small-6"
+  },
+  {
+   "family": "small:gen_text_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s075",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "gen_text_small"
+   },
+   "profile": [
+    "--window=2",
+    "--depth=1",
+    "--threads=1",
+    "--compression=1",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-gen_text_small-7"
+  },
+  {
+   "family": "small:gen_text_small",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s076",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "gen_text_small"
+   },
+   "profile": [
+    "--window=50",
+    "--depth=10",
+    "--threads=1",
+    "--compression=1",
+    "--delta-base-offset",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-gen_text_small-8"
+  },
+  {
+   "family": "small:gen_text_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s077",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "gen_text_small"
+   },
+   "profile": [
+    "--window=10",
+    "--depth=0",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-gen_text_small-9"
+  },
+  {
+   "family": "small:gen_text_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s078",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "gen_text_small"
+   },
+   "profile": [
+    "--window=10",
+    "--depth=1",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-gen_text_small-10"
+  },
+  {
+   "family": "small:gen_text_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s079",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "gen_text_small"
+   },
+   "profile": [
+    "--window=50",
+    "--depth=5",
+    "--threads=1",
+    "--compression=9",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-gen_text_small-11"
+  },
+  {
+   "family": "small:gen_text_small",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s080",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "gen_text_small"
+   },
+   "profile": [
+    "--window=50",
+    "--depth=1",
+    "--threads=1",
+    "--compression=6",
+    "--no-reuse-object"
+   ],
+   "seed": "public-small-gen_text_small-12"
+  },
+  {
+   "family": "small:gen_text_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s081",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "gen_text_small"
+   },
+   "profile": [
+    "--window=1",
+    "--depth=50",
+    "--threads=2",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-gen_text_small-13"
+  },
+  {
+   "family": "small:gen_text_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s082",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "gen_text_small"
+   },
+   "profile": [
+    "--window=10",
+    "--depth=3",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-gen_text_small-14"
+  },
+  {
+   "family": "small:gen_text_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s083",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "gen_text_small"
+   },
+   "profile": [
+    "--window=10",
+    "--depth=1",
+    "--threads=1",
+    "--compression=1",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-gen_text_small-15"
+  },
+  {
+   "family": "small:gen_text_small",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s084",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "gen_text_small"
+   },
+   "profile": [
+    "--window=10",
+    "--depth=3",
+    "--threads=1",
+    "--compression=9",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-gen_text_small-16"
+  },
+  {
+   "family": "small:gen_text_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s085",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "gen_text_small"
+   },
+   "profile": [
+    "--window=2",
+    "--depth=50",
+    "--threads=2",
+    "--compression=6"
+   ],
+   "seed": "public-small-gen_text_small-17"
+  },
+  {
+   "family": "small:gen_text_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s086",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "gen_text_small"
+   },
+   "profile": [
+    "--window=10",
+    "--depth=2",
+    "--threads=2",
+    "--compression=9",
+    "--delta-base-offset",
+    "--no-reuse-delta",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-gen_text_small-18"
+  },
+  {
+   "family": "small:gen_text_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s087",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "gen_text_small"
+   },
+   "profile": [
+    "--window=2",
+    "--depth=0",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset",
+    "--no-reuse-delta"
+   ],
+   "seed": "public-small-gen_text_small-19"
+  },
+  {
+   "family": "small:gen_binary_small",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s088",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "gen_binary_small"
+   },
+   "profile": [
+    "--window=10",
+    "--depth=10",
+    "--threads=1",
+    "--compression=1",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-gen_binary_small-0"
+  },
+  {
+   "family": "small:gen_binary_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s089",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "gen_binary_small"
+   },
+   "profile": [
+    "--window=1",
+    "--depth=50",
+    "--threads=2",
+    "--compression=1"
+   ],
+   "seed": "public-small-gen_binary_small-1"
+  },
+  {
+   "family": "small:gen_binary_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s090",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "gen_binary_small"
+   },
+   "profile": [
+    "--window=1",
+    "--depth=50",
+    "--threads=1",
+    "--compression=6",
+    "--delta-base-offset",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-gen_binary_small-2"
+  },
+  {
+   "family": "small:gen_binary_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s091",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "gen_binary_small"
+   },
+   "profile": [
+    "--window=10",
+    "--depth=0",
+    "--threads=2",
+    "--compression=6",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-gen_binary_small-3"
+  },
+  {
+   "family": "small:gen_binary_small",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s092",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "gen_binary_small"
+   },
+   "profile": [
+    "--window=50",
+    "--depth=1",
+    "--threads=1",
+    "--compression=1",
+    "--delta-base-offset",
+    "--no-reuse-delta"
+   ],
+   "seed": "public-small-gen_binary_small-4"
+  },
+  {
+   "family": "small:gen_binary_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s093",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "gen_binary_small"
+   },
+   "profile": [
+    "--window=2",
+    "--depth=3",
+    "--threads=2",
+    "--compression=6",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-gen_binary_small-5"
+  },
+  {
+   "family": "small:gen_binary_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s094",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "gen_binary_small"
+   },
+   "profile": [
+    "--window=50",
+    "--depth=50",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-gen_binary_small-6"
+  },
+  {
+   "family": "small:gen_binary_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s095",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "gen_binary_small"
+   },
+   "profile": [
+    "--window=50",
+    "--depth=3",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-gen_binary_small-7"
+  },
+  {
+   "family": "small:gen_binary_small",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s096",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "gen_binary_small"
+   },
+   "profile": [
+    "--window=10",
+    "--depth=3",
+    "--threads=2",
+    "--compression=1",
+    "--delta-base-offset",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-gen_binary_small-8"
+  },
+  {
+   "family": "small:gen_binary_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s097",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "gen_binary_small"
+   },
+   "profile": [
+    "--window=2",
+    "--depth=50",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-gen_binary_small-9"
+  },
+  {
+   "family": "small:gen_binary_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s098",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "gen_binary_small"
+   },
+   "profile": [
+    "--window=1",
+    "--depth=0",
+    "--threads=1",
+    "--compression=6",
+    "--delta-base-offset",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-gen_binary_small-10"
+  },
+  {
+   "family": "small:gen_binary_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s099",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "gen_binary_small"
+   },
+   "profile": [
+    "--window=1",
+    "--depth=50",
+    "--threads=2",
+    "--compression=9",
+    "--delta-base-offset",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-gen_binary_small-11"
+  },
+  {
+   "family": "small:gen_binary_small",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s100",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "gen_binary_small"
+   },
+   "profile": [
+    "--window=1",
+    "--depth=5",
+    "--threads=1",
+    "--compression=6",
+    "--no-reuse-delta"
+   ],
+   "seed": "public-small-gen_binary_small-12"
+  },
+  {
+   "family": "small:gen_binary_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s101",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "gen_binary_small"
+   },
+   "profile": [
+    "--window=50",
+    "--depth=50",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-gen_binary_small-13"
+  },
+  {
+   "family": "small:gen_binary_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s102",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "gen_binary_small"
+   },
+   "profile": [
+    "--window=1",
+    "--depth=5",
+    "--threads=1",
+    "--compression=6",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-gen_binary_small-14"
+  },
+  {
+   "family": "small:gen_binary_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s103",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "gen_binary_small"
+   },
+   "profile": [
+    "--window=10",
+    "--depth=50",
+    "--threads=1",
+    "--compression=6",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-gen_binary_small-15"
+  },
+  {
+   "family": "small:gen_binary_small",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s104",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "gen_binary_small"
+   },
+   "profile": [
+    "--window=50",
+    "--depth=50",
+    "--threads=1",
+    "--compression=1",
+    "--delta-base-offset",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-gen_binary_small-16"
+  },
+  {
+   "family": "small:gen_binary_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s105",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "gen_binary_small"
+   },
+   "profile": [
+    "--window=10",
+    "--depth=10",
+    "--threads=1",
+    "--compression=9"
+   ],
+   "seed": "public-small-gen_binary_small-17"
+  },
+  {
+   "family": "small:gen_binary_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s106",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "gen_binary_small"
+   },
+   "profile": [
+    "--window=50",
+    "--depth=50",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-gen_binary_small-18"
+  },
+  {
+   "family": "small:gen_binary_small",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s107",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "gen_binary_small"
+   },
+   "profile": [
+    "--window=2",
+    "--depth=2",
+    "--threads=2",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-gen_binary_small-19"
+  },
+  {
+   "family": "small:deep_chain",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s108",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "deep_chain"
+   },
+   "profile": [
+    "--window=50",
+    "--depth=8",
+    "--threads=1",
+    "--compression=6"
+   ],
+   "seed": "public-small-deep_chain-0"
+  },
+  {
+   "family": "small:deep_chain",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s109",
+   "kind": "small",
+   "layout": [
+    [
+     0.6,
+     [
+      "--window=10",
+      "--depth=50"
+     ]
+    ]
+   ],
+   "object_format": "sha256",
+   "params": {
+    "kind": "deep_chain"
+   },
+   "profile": [
+    "--window=10",
+    "--depth=2",
+    "--threads=2",
+    "--compression=9",
+    "--no-reuse-object",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-deep_chain-1"
+  },
+  {
+   "family": "small:deep_chain",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s110",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "deep_chain"
+   },
+   "profile": [
+    "--window=10",
+    "--depth=5",
+    "--threads=2",
+    "--compression=6",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-deep_chain-2"
+  },
+  {
+   "family": "small:deep_chain",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s111",
+   "kind": "small",
+   "layout": [
+    [
+     0.6,
+     [
+      "--window=10",
+      "--depth=50"
+     ]
+    ]
+   ],
+   "object_format": "sha1",
+   "params": {
+    "kind": "deep_chain"
+   },
+   "profile": [
+    "--window=50",
+    "--depth=3",
+    "--threads=1",
+    "--compression=1",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-deep_chain-3"
+  },
+  {
+   "family": "small:deep_chain",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s112",
+   "kind": "small",
+   "layout": [
+    [
+     0.6,
+     [
+      "--window=10",
+      "--depth=50"
+     ]
+    ]
+   ],
+   "object_format": "sha1",
+   "params": {
+    "kind": "deep_chain"
+   },
+   "profile": [
+    "--window=50",
+    "--depth=1",
+    "--threads=1",
+    "--compression=9"
+   ],
+   "seed": "public-small-deep_chain-4"
+  },
+  {
+   "family": "small:deep_chain",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s113",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "deep_chain"
+   },
+   "profile": [
+    "--window=2",
+    "--depth=2",
+    "--threads=2",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-deep_chain-5"
+  },
+  {
+   "family": "small:deep_chain",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s114",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "deep_chain"
+   },
+   "profile": [
+    "--window=2",
+    "--depth=8",
+    "--threads=1",
+    "--compression=1",
+    "--no-reuse-delta",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-deep_chain-6"
+  },
+  {
+   "family": "small:deep_chain",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s115",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "deep_chain"
+   },
+   "profile": [
+    "--window=50",
+    "--depth=8",
+    "--threads=1",
+    "--compression=6",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-deep_chain-7"
+  },
+  {
+   "family": "small:deep_chain",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s116",
+   "kind": "small",
+   "layout": [
+    [
+     0.6,
+     [
+      "--window=10",
+      "--depth=50"
+     ]
+    ]
+   ],
+   "object_format": "sha256",
+   "params": {
+    "kind": "deep_chain"
+   },
+   "profile": [
+    "--window=50",
+    "--depth=1",
+    "--threads=2",
+    "--compression=6",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-deep_chain-8"
+  },
+  {
+   "family": "small:deep_chain",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s117",
+   "kind": "small",
+   "layout": [
+    [
+     0.6,
+     [
+      "--window=10",
+      "--depth=50"
+     ]
+    ]
+   ],
+   "object_format": "sha1",
+   "params": {
+    "kind": "deep_chain"
+   },
+   "profile": [
+    "--window=10",
+    "--depth=3",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-deep_chain-9"
+  },
+  {
+   "family": "small:deep_chain",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s118",
+   "kind": "small",
+   "layout": [
+    [
+     0.6,
+     [
+      "--window=10",
+      "--depth=50"
+     ]
+    ]
+   ],
+   "object_format": "sha256",
+   "params": {
+    "kind": "deep_chain"
+   },
+   "profile": [
+    "--window=10",
+    "--depth=8",
+    "--threads=2",
+    "--compression=1"
+   ],
+   "seed": "public-small-deep_chain-10"
+  },
+  {
+   "family": "small:deep_chain",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s119",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "deep_chain"
+   },
+   "profile": [
+    "--window=50",
+    "--depth=1",
+    "--threads=1",
+    "--compression=1",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-deep_chain-11"
+  },
+  {
+   "family": "small:deep_chain",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s120",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "deep_chain"
+   },
+   "profile": [
+    "--window=50",
+    "--depth=3",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-deep_chain-12"
+  },
+  {
+   "family": "small:deep_chain",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s121",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "deep_chain"
+   },
+   "profile": [
+    "--window=50",
+    "--depth=2",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-deep_chain-13"
+  },
+  {
+   "family": "small:deep_chain",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s122",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "deep_chain"
+   },
+   "profile": [
+    "--window=1",
+    "--depth=2",
+    "--threads=1",
+    "--compression=6",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-deep_chain-14"
+  },
+  {
+   "family": "small:deep_chain",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s123",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "deep_chain"
+   },
+   "profile": [
+    "--window=50",
+    "--depth=8",
+    "--threads=1",
+    "--compression=9"
+   ],
+   "seed": "public-small-deep_chain-15"
+  },
+  {
+   "family": "small:same_content_many_paths",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s124",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "same_content_many_paths"
+   },
+   "profile": [
+    "--window=50",
+    "--depth=2",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset",
+    "--no-reuse-object",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-same_content_many_paths-0"
+  },
+  {
+   "family": "small:same_content_many_paths",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s125",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "same_content_many_paths"
+   },
+   "profile": [
+    "--window=2",
+    "--depth=0",
+    "--threads=1",
+    "--compression=6",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-same_content_many_paths-1"
+  },
+  {
+   "family": "small:same_content_many_paths",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s126",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "same_content_many_paths"
+   },
+   "profile": [
+    "--window=2",
+    "--depth=1",
+    "--threads=1",
+    "--compression=6",
+    "--delta-base-offset",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-same_content_many_paths-2"
+  },
+  {
+   "family": "small:same_content_many_paths",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s127",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "same_content_many_paths"
+   },
+   "profile": [
+    "--window=10",
+    "--depth=2",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-same_content_many_paths-3"
+  },
+  {
+   "family": "small:same_content_many_paths",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s128",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "same_content_many_paths"
+   },
+   "profile": [
+    "--window=50",
+    "--depth=2",
+    "--threads=2",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-same_content_many_paths-4"
+  },
+  {
+   "family": "small:same_content_many_paths",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s129",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "same_content_many_paths"
+   },
+   "profile": [
+    "--window=1",
+    "--depth=1",
+    "--threads=2",
+    "--compression=6"
+   ],
+   "seed": "public-small-same_content_many_paths-5"
+  },
+  {
+   "family": "small:same_content_many_paths",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s130",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "same_content_many_paths"
+   },
+   "profile": [
+    "--window=1",
+    "--depth=10",
+    "--threads=1",
+    "--compression=1",
+    "--delta-base-offset",
+    "--no-reuse-delta"
+   ],
+   "seed": "public-small-same_content_many_paths-6"
+  },
+  {
+   "family": "small:same_content_many_paths",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s131",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "same_content_many_paths"
+   },
+   "profile": [
+    "--window=2",
+    "--depth=5",
+    "--threads=1",
+    "--compression=9"
+   ],
+   "seed": "public-small-same_content_many_paths-7"
+  },
+  {
+   "family": "small:large_object",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s132",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "large_object"
+   },
+   "profile": [
+    "--window=2",
+    "--depth=10",
+    "--threads=2",
+    "--compression=1",
+    "--delta-base-offset",
+    "--no-reuse-object",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-large_object-0"
+  },
+  {
+   "family": "small:large_object",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s133",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "large_object"
+   },
+   "profile": [
+    "--window=2",
+    "--depth=3",
+    "--threads=1",
+    "--compression=6",
+    "--delta-base-offset",
+    "--no-reuse-delta",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-large_object-1"
+  },
+  {
+   "family": "small:large_object",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s134",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "large_object"
+   },
+   "profile": [
+    "--window=10",
+    "--depth=2",
+    "--threads=1",
+    "--compression=1",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-large_object-2"
+  },
+  {
+   "family": "small:large_object",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s135",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "large_object"
+   },
+   "profile": [
+    "--window=1",
+    "--depth=10",
+    "--threads=2",
+    "--compression=1",
+    "--no-reuse-delta",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-large_object-3"
+  },
+  {
+   "family": "small:large_object",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s136",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "large_object"
+   },
+   "profile": [
+    "--window=50",
+    "--depth=1",
+    "--threads=1",
+    "--compression=1",
+    "--no-reuse-object"
+   ],
+   "seed": "public-small-large_object-4"
+  },
+  {
+   "family": "small:large_object",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s137",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "large_object"
+   },
+   "profile": [
+    "--window=10",
+    "--depth=0",
+    "--threads=2",
+    "--compression=6",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-large_object-5"
+  },
+  {
+   "family": "small:copy_boundaries",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s138",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "copy_boundaries"
+   },
+   "profile": [
+    "--window=2",
+    "--depth=50",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-copy_boundaries-0"
+  },
+  {
+   "family": "small:copy_boundaries",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s139",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "copy_boundaries"
+   },
+   "profile": [
+    "--window=1",
+    "--depth=2",
+    "--threads=1",
+    "--compression=1"
+   ],
+   "seed": "public-small-copy_boundaries-1"
+  },
+  {
+   "family": "small:copy_boundaries",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s140",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "copy_boundaries"
+   },
+   "profile": [
+    "--window=2",
+    "--depth=10",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-copy_boundaries-2"
+  },
+  {
+   "family": "small:copy_boundaries",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s141",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "copy_boundaries"
+   },
+   "profile": [
+    "--window=1",
+    "--depth=5",
+    "--threads=1",
+    "--compression=1",
+    "--delta-base-offset",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-copy_boundaries-3"
+  },
+  {
+   "family": "small:copy_boundaries",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s142",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "copy_boundaries"
+   },
+   "profile": [
+    "--window=1",
+    "--depth=1",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset",
+    "--no-reuse-object",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-copy_boundaries-4"
+  },
+  {
+   "family": "small:copy_boundaries",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s143",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "copy_boundaries"
+   },
+   "profile": [
+    "--window=1",
+    "--depth=50",
+    "--threads=2",
+    "--compression=6",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-copy_boundaries-5"
+  },
+  {
+   "family": "small:binary_nul",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s144",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "binary_nul"
+   },
+   "profile": [
+    "--window=50",
+    "--depth=1",
+    "--threads=1",
+    "--compression=6",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-binary_nul-0"
+  },
+  {
+   "family": "small:binary_nul",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s145",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "binary_nul"
+   },
+   "profile": [
+    "--window=1",
+    "--depth=2",
+    "--threads=1",
+    "--compression=6",
+    "--delta-base-offset",
+    "--no-reuse-delta"
+   ],
+   "seed": "public-small-binary_nul-1"
+  },
+  {
+   "family": "small:binary_nul",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s146",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "binary_nul"
+   },
+   "profile": [
+    "--window=10",
+    "--depth=50",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-binary_nul-2"
+  },
+  {
+   "family": "small:binary_nul",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s147",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "binary_nul"
+   },
+   "profile": [
+    "--window=1",
+    "--depth=1",
+    "--threads=1",
+    "--compression=6",
+    "--delta-base-offset",
+    "--no-reuse-delta"
+   ],
+   "seed": "public-small-binary_nul-3"
+  },
+  {
+   "family": "small:binary_nul",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s148",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "binary_nul"
+   },
+   "profile": [
+    "--window=50",
+    "--depth=3",
+    "--threads=1",
+    "--compression=1",
+    "--delta-base-offset",
+    "--no-reuse-object",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-binary_nul-4"
+  },
+  {
+   "family": "small:binary_nul",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s149",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "binary_nul"
+   },
+   "profile": [
+    "--window=1",
+    "--depth=2",
+    "--threads=2",
+    "--compression=9",
+    "--delta-base-offset",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-binary_nul-5"
+  },
+  {
+   "family": "small:binary_nul",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s150",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "binary_nul"
+   },
+   "profile": [
+    "--window=50",
+    "--depth=5",
+    "--threads=2",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-binary_nul-6"
+  },
+  {
+   "family": "small:binary_nul",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s151",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "binary_nul"
+   },
+   "profile": [
+    "--window=1",
+    "--depth=50",
+    "--threads=1",
+    "--compression=6",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-binary_nul-7"
+  },
+  {
+   "family": "small:tags_everywhere",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s152",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "tags_everywhere"
+   },
+   "profile": [
+    "--window=2",
+    "--depth=50",
+    "--threads=2",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-tags_everywhere-0"
+  },
+  {
+   "family": "small:tags_everywhere",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s153",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "tags_everywhere"
+   },
+   "profile": [
+    "--window=50",
+    "--depth=10",
+    "--threads=2",
+    "--compression=9"
+   ],
+   "seed": "public-small-tags_everywhere-1"
+  },
+  {
+   "family": "small:tags_everywhere",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s154",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "tags_everywhere"
+   },
+   "profile": [
+    "--window=1",
+    "--depth=3",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-tags_everywhere-2"
+  },
+  {
+   "family": "small:tags_everywhere",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s155",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "tags_everywhere"
+   },
+   "profile": [
+    "--window=1",
+    "--depth=5",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-tags_everywhere-3"
+  },
+  {
+   "family": "small:tags_everywhere",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s156",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "tags_everywhere"
+   },
+   "profile": [
+    "--window=2",
+    "--depth=2",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-tags_everywhere-4"
+  },
+  {
+   "family": "small:tags_everywhere",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s157",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "tags_everywhere"
+   },
+   "profile": [
+    "--window=10",
+    "--depth=50",
+    "--threads=1",
+    "--compression=6",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-tags_everywhere-5"
+  },
+  {
+   "family": "small:modes_and_symlinks",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s158",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "modes_and_symlinks"
+   },
+   "profile": [
+    "--window=10",
+    "--depth=50",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-modes_and_symlinks-0"
+  },
+  {
+   "family": "small:modes_and_symlinks",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s159",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "modes_and_symlinks"
+   },
+   "profile": [
+    "--window=50",
+    "--depth=10",
+    "--threads=1",
+    "--compression=6",
+    "--delta-base-offset",
+    "--no-reuse-delta"
+   ],
+   "seed": "public-small-modes_and_symlinks-1"
+  },
+  {
+   "family": "small:modes_and_symlinks",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s160",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "modes_and_symlinks"
+   },
+   "profile": [
+    "--window=1",
+    "--depth=3",
+    "--threads=1",
+    "--compression=9",
+    "--no-reuse-delta"
+   ],
+   "seed": "public-small-modes_and_symlinks-2"
+  },
+  {
+   "family": "small:modes_and_symlinks",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s161",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "modes_and_symlinks"
+   },
+   "profile": [
+    "--window=50",
+    "--depth=1",
+    "--threads=2",
+    "--compression=1",
+    "--delta-base-offset",
+    "--no-reuse-delta"
+   ],
+   "seed": "public-small-modes_and_symlinks-3"
+  },
+  {
+   "family": "small:modes_and_symlinks",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s162",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "modes_and_symlinks"
+   },
+   "profile": [
+    "--window=2",
+    "--depth=2",
+    "--threads=2",
+    "--compression=1",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-modes_and_symlinks-4"
+  },
+  {
+   "family": "small:modes_and_symlinks",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s163",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "modes_and_symlinks"
+   },
+   "profile": [
+    "--window=2",
+    "--depth=0",
+    "--threads=2",
+    "--compression=9"
+   ],
+   "seed": "public-small-modes_and_symlinks-5"
+  },
+  {
+   "family": "small:merges",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s164",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "merges"
+   },
+   "profile": [
+    "--window=10",
+    "--depth=5",
+    "--threads=2",
+    "--compression=6",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-merges-0"
+  },
+  {
+   "family": "small:merges",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s165",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "merges"
+   },
+   "profile": [
+    "--window=2",
+    "--depth=10",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-merges-1"
+  },
+  {
+   "family": "small:merges",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s166",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "merges"
+   },
+   "profile": [
+    "--window=1",
+    "--depth=50",
+    "--threads=1",
+    "--compression=9",
+    "--no-reuse-object"
+   ],
+   "seed": "public-small-merges-2"
+  },
+  {
+   "family": "small:merges",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s167",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "merges"
+   },
+   "profile": [
+    "--window=2",
+    "--depth=50",
+    "--threads=1",
+    "--compression=9",
+    "--no-reuse-delta"
+   ],
+   "seed": "public-small-merges-3"
+  },
+  {
+   "family": "small:merges",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s168",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "merges"
+   },
+   "profile": [
+    "--window=50",
+    "--depth=50",
+    "--threads=2",
+    "--compression=9"
+   ],
+   "seed": "public-small-merges-4"
+  },
+  {
+   "family": "small:merges",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s169",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "merges"
+   },
+   "profile": [
+    "--window=50",
+    "--depth=10",
+    "--threads=1",
+    "--compression=6",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-merges-5"
+  },
+  {
+   "family": "small:merges",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s170",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "merges"
+   },
+   "profile": [
+    "--window=2",
+    "--depth=10",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset",
+    "--no-reuse-delta"
+   ],
+   "seed": "public-small-merges-6"
+  },
+  {
+   "family": "small:merges",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s171",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "merges"
+   },
+   "profile": [
+    "--window=10",
+    "--depth=10",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-merges-7"
+  },
+  {
+   "family": "small:empty_and_tiny",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s172",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "empty_and_tiny"
+   },
+   "profile": [
+    "--window=50",
+    "--depth=3",
+    "--threads=1",
+    "--compression=9"
+   ],
+   "seed": "public-small-empty_and_tiny-0"
+  },
+  {
+   "family": "small:empty_and_tiny",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s173",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "empty_and_tiny"
+   },
+   "profile": [
+    "--window=1",
+    "--depth=10",
+    "--threads=2",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-empty_and_tiny-1"
+  },
+  {
+   "family": "small:empty_and_tiny",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s174",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "empty_and_tiny"
+   },
+   "profile": [
+    "--window=10",
+    "--depth=3",
+    "--threads=2",
+    "--compression=1",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-empty_and_tiny-2"
+  },
+  {
+   "family": "small:empty_and_tiny",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s175",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "empty_and_tiny"
+   },
+   "profile": [
+    "--window=50",
+    "--depth=2",
+    "--threads=2",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-empty_and_tiny-3"
+  },
+  {
+   "family": "small:incompressible",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s176",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "incompressible"
+   },
+   "profile": [
+    "--window=2",
+    "--depth=10",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset",
+    "--no-reuse-delta",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-incompressible-0"
+  },
+  {
+   "family": "small:incompressible",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s177",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "incompressible"
+   },
+   "profile": [
+    "--window=10",
+    "--depth=5",
+    "--threads=1",
+    "--compression=6",
+    "--delta-base-offset",
+    "--no-reuse-delta"
+   ],
+   "seed": "public-small-incompressible-1"
+  },
+  {
+   "family": "small:incompressible",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s178",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "incompressible"
+   },
+   "profile": [
+    "--window=2",
+    "--depth=50",
+    "--threads=1",
+    "--compression=1",
+    "--delta-base-offset",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-incompressible-2"
+  },
+  {
+   "family": "small:incompressible",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s179",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "incompressible"
+   },
+   "profile": [
+    "--window=10",
+    "--depth=3",
+    "--threads=1",
+    "--compression=1"
+   ],
+   "seed": "public-small-incompressible-3"
+  },
+  {
+   "family": "small:incompressible",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s180",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "incompressible"
+   },
+   "profile": [
+    "--window=2",
+    "--depth=3",
+    "--threads=2",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-incompressible-4"
+  },
+  {
+   "family": "small:incompressible",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s181",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "incompressible"
+   },
+   "profile": [
+    "--window=2",
+    "--depth=50",
+    "--threads=1",
+    "--compression=6",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-incompressible-5"
+  },
+  {
+   "family": "small:incompressible",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s182",
+   "kind": "small",
+   "object_format": "sha256",
+   "params": {
+    "kind": "incompressible"
+   },
+   "profile": [
+    "--window=10",
+    "--depth=50",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-incompressible-6"
+  },
+  {
+   "family": "small:incompressible",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s183",
+   "kind": "small",
+   "object_format": "sha1",
+   "params": {
+    "kind": "incompressible"
+   },
+   "profile": [
+    "--window=1",
+    "--depth=1",
+    "--threads=1",
+    "--compression=1",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-incompressible-7"
+  },
+  {
+   "family": "small:prepacked_slice",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s184",
+   "kind": "small",
+   "layout": [
+    [
+     0.5,
+     [
+      "--window=10",
+      "--depth=10"
+     ]
+    ]
+   ],
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "lua",
+    "kind": "excerpt_slice",
+    "start": 309
+   },
+   "profile": [
+    "--window=2",
+    "--depth=3",
+    "--threads=1",
+    "--compression=1",
+    "--delta-base-offset",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-prepacked_slice-0"
+  },
+  {
+   "family": "small:prepacked_slice",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s185",
+   "kind": "small",
+   "layout": [
+    [
+     0.5,
+     [
+      "--window=10",
+      "--depth=3"
+     ]
+    ]
+   ],
+   "object_format": "sha256",
+   "params": {
+    "excerpt": "jq",
+    "kind": "excerpt_slice",
+    "start": 82
+   },
+   "profile": [
+    "--window=1",
+    "--depth=10",
+    "--threads=2",
+    "--compression=6",
+    "--delta-base-offset",
+    "--no-reuse-delta",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-prepacked_slice-1"
+  },
+  {
+   "family": "small:prepacked_slice",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s186",
+   "kind": "small",
+   "layout": [
+    [
+     0.5,
+     [
+      "--window=10",
+      "--depth=3"
+     ]
+    ]
+   ],
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "lua",
+    "kind": "excerpt_slice",
+    "start": 670
+   },
+   "profile": [
+    "--window=1",
+    "--depth=0",
+    "--threads=1",
+    "--compression=1",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-prepacked_slice-2"
+  },
+  {
+   "family": "small:prepacked_slice",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s187",
+   "kind": "small",
+   "layout": [
+    [
+     0.5,
+     [
+      "--window=10",
+      "--depth=50"
+     ]
+    ]
+   ],
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "jq",
+    "kind": "excerpt_slice",
+    "start": 72
+   },
+   "profile": [
+    "--window=1",
+    "--depth=50",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "seed": "public-small-prepacked_slice-3"
+  },
+  {
+   "family": "small:prepacked_slice",
+   "fast": true,
+   "generator": "edge",
+   "id": "pub-s188",
+   "kind": "small",
+   "layout": [
+    [
+     0.5,
+     [
+      "--window=10",
+      "--depth=50"
+     ]
+    ]
+   ],
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "lua",
+    "kind": "excerpt_slice",
+    "start": 520
+   },
+   "profile": [
+    "--window=50",
+    "--depth=5",
+    "--threads=1",
+    "--compression=6",
+    "--delta-base-offset",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-prepacked_slice-4"
+  },
+  {
+   "family": "small:prepacked_slice",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s189",
+   "kind": "small",
+   "layout": [
+    [
+     0.5,
+     [
+      "--window=10",
+      "--depth=50"
+     ]
+    ]
+   ],
+   "object_format": "sha256",
+   "params": {
+    "excerpt": "jq",
+    "kind": "excerpt_slice",
+    "start": 278
+   },
+   "profile": [
+    "--window=1",
+    "--depth=3",
+    "--threads=2",
+    "--compression=6",
+    "--delta-base-offset",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-prepacked_slice-5"
+  },
+  {
+   "family": "small:prepacked_slice",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s190",
+   "kind": "small",
+   "layout": [
+    [
+     0.5,
+     [
+      "--window=10",
+      "--depth=10"
+     ]
+    ]
+   ],
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "lua",
+    "kind": "excerpt_slice",
+    "start": 688
+   },
+   "profile": [
+    "--window=10",
+    "--depth=0",
+    "--threads=2",
+    "--compression=6",
+    "--name-hash-version=2"
+   ],
+   "seed": "public-small-prepacked_slice-6"
+  },
+  {
+   "family": "small:prepacked_slice",
+   "fast": false,
+   "generator": "edge",
+   "id": "pub-s191",
+   "kind": "small",
+   "layout": [
+    [
+     0.5,
+     [
+      "--window=10",
+      "--depth=10"
+     ]
+    ]
+   ],
+   "object_format": "sha1",
+   "params": {
+    "excerpt": "jq",
+    "kind": "excerpt_slice",
+    "start": 293
+   },
+   "profile": [
+    "--window=10",
+    "--depth=3",
+    "--threads=2",
+    "--compression=1",
+    "--delta-base-offset",
+    "--no-reuse-object"
+   ],
+   "seed": "public-small-prepacked_slice-7"
+  },
+  {
+   "family": "source-edits",
+   "fast": true,
+   "generator": "real_linear",
+   "id": "pub-L0-source-edits",
+   "index_reps": 4,
+   "kind": "large",
+   "object_format": "sha1",
+   "params": {
+    "count": 500,
+    "excerpt": "lua",
+    "renames": [
+     [
+      240,
+      "",
+      "lua-5.x/"
+     ]
+    ],
+    "start": 180,
+    "tag_every": 50
+   },
+   "profile": [
+    "--window=50",
+    "--depth=50",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "read_reps": {
+    "ancestor": 9,
+    "tip": 31,
+    "uniform": 3
+   },
+   "seed": "public-large-source-edits"
+  },
+  {
+   "family": "diverging-branches",
+   "fast": false,
+   "generator": "real_diverge",
+   "id": "pub-L1-diverging-branches",
+   "index_reps": 5,
+   "kind": "large",
+   "object_format": "sha256",
+   "params": {
+    "base": 60,
+    "branches": 10,
+    "excerpt": "cjson",
+    "mainline": 300,
+    "per_branch": 40
+   },
+   "profile": [
+    "--window=50",
+    "--depth=50",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "read_reps": {
+    "ancestor": 53,
+    "tip": 15,
+    "uniform": 4
+   },
+   "seed": "public-large-diverging-branches"
+  },
+  {
+   "family": "generated-text",
+   "fast": false,
+   "generator": "gen_text",
+   "id": "pub-L2-generated-text",
+   "index_reps": 4,
+   "kind": "large",
+   "object_format": "sha1",
+   "params": {
+    "commits": 420,
+    "copies": true,
+    "scale": 1.4
+   },
+   "profile": [
+    "--window=50",
+    "--depth=50",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "read_reps": {
+    "ancestor": 9,
+    "tip": 56,
+    "uniform": 4
+   },
+   "seed": "public-large-generated-text"
+  },
+  {
+   "family": "binary-evolution",
+   "fast": true,
+   "generator": "gen_binary",
+   "id": "pub-L3-binary-evolution",
+   "index_reps": 3,
+   "kind": "large",
+   "object_format": "sha256",
+   "params": {
+    "commits": 170,
+    "scale": 0.8
+   },
+   "profile": [
+    "--window=50",
+    "--depth=50",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "read_reps": {
+    "ancestor": 9,
+    "tip": 61,
+    "uniform": 6
+   },
+   "seed": "public-large-binary-evolution"
+  },
+  {
+   "family": "mixed-repack",
+   "fast": false,
+   "generator": "real_linear",
+   "id": "pub-L4-mixed-repack",
+   "index_reps": 9,
+   "kind": "large",
+   "layout": [
+    [
+     0.45,
+     [
+      "--window=10",
+      "--depth=50"
+     ]
+    ],
+    [
+     0.7,
+     [
+      "--window=10",
+      "--depth=20"
+     ]
+    ]
+   ],
+   "object_format": "sha1",
+   "params": {
+    "count": 392,
+    "excerpt": "jq",
+    "start": 0,
+    "tag_every": 40
+   },
+   "profile": [
+    "--window=50",
+    "--depth=50",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "read_reps": {
+    "ancestor": 17,
+    "tip": 56,
+    "uniform": 6
+   },
+   "seed": "public-large-mixed-repack"
+  },
+  {
+   "family": "controls",
+   "fast": false,
+   "generator": "controls",
+   "id": "pub-L5-controls",
+   "index_reps": 6,
+   "kind": "large",
+   "object_format": "sha256",
+   "params": {
+    "commits": 170,
+    "scale": 1.2
+   },
+   "profile": [
+    "--window=50",
+    "--depth=50",
+    "--threads=1",
+    "--compression=9",
+    "--delta-base-offset"
+   ],
+   "read_reps": {
+    "ancestor": 33,
+    "tip": 60,
+    "uniform": 9
+   },
+   "seed": "public-large-controls"
+  }
+ ],
+ "excerpts": {
+  "cjson": "0a9b2a89a43954753729f718b16c1de25c950359ad6c85aa90ddcb3de8f78db0",
+  "jq": "56099ebf11da8680c09cc5cdad7971c8f4c5ea6f904145c642982c0b36d0740a",
+  "lua": "3b0b74a14b0018a383390054d396055e750c4803b6adabc51ccc54dfcc5dc031"
+ },
+ "pairs": 6,
+ "profile": [
+  "--window=50",
+  "--depth=50",
+  "--threads=1",
+  "--compression=9",
+  "--delta-base-offset"
+ ],
+ "schema": "delta-foundry-workload-1",
+ "side": "public"
+}
