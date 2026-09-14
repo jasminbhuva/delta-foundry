@@ -8,7 +8,7 @@ This repository contains the task bundle only: the agent environment, task instr
 
 | Field | Value |
 |---|---|
-| Task name | `afterquery/delta-foundry` |
+| Task name | `delta-foundry` |
 | Artifact class | Codecs and signal processing |
 | Paradigm | Performance |
 | Verification | Differential oracle and benchmark metric |
